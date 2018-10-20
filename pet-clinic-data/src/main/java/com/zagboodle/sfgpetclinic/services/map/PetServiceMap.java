@@ -2,9 +2,11 @@ package com.zagboodle.sfgpetclinic.services.map;
 
 import com.zagboodle.sfgpetclinic.model.Pet;
 import com.zagboodle.sfgpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
